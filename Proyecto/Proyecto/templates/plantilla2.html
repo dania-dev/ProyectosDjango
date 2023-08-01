@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>plantilla2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: black;
+            backdrop-filter: blur(7px);
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            float: right;
+        }
+        
+        .video-container {
+            float: center;
+            width: 600px;
+            height: 400px;
+            margin-right: 20px; 
+            border: 1px solid#0e0d0d;
+        }
+        
+        .titulo {
+            text-align: center;
+            font-size: 24px;
+            color: aliceblue;
+            margin-bottom: 20px;
+        }
+        .content-container {
+            flex: 1;
+            background-color:black;
+            padding: 20px;
+            float: left;
+            text-align: justify;
+
+        }
+        
+        
+        .texto {
+            text-align: center;
+            font-size: 18px;
+            color: aliceblue;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            
+            <video width="640" height="360" controls>
+                <source src="./stactic/video.mp4" type="video/mp4">
+            </video>
+        
+        </div>
+    </div>
+
+
+            <!-- Otro contenido aquí -->
+    </div>
+</body>
+</html>
