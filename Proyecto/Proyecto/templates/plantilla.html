@@ -1,4 +1,5 @@
 {% load static %}
+{% extends "Proyecto/Proyecto/plantilla.html"}
 
 <!DOCTYPE html>
 <html>
@@ -123,8 +124,8 @@
         <div class="cuadros">
             <div class="cuadro">
                 <h3>SET POINT:</h3>
-                {% for set_points in set_point %}
-                <p style="color: white;">{{ set_points.valor }}</p>
+                {% for set_point in set_points %}
+                <p style="color: white;">{{ set_point.valor }}</p>
                 {% endfor %}
             </div>
             <div class="cuadro">
